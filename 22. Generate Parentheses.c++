@@ -1,5 +1,6 @@
 
 
+
 #include <vector>
 #include <string>
 
@@ -9,7 +10,7 @@ public:
         std::vector<std::string> result;
         generateCombinations(result, "", 0, 0, n);
         return result;
-    }ee
+    }eee
 
 private:
     void generateCombinations(std::vector<std::string>& result, std::string current, int open, int close, int max) {
